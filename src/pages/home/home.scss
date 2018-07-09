@@ -39,7 +39,7 @@ page-home {
 }
 .vl {
     border-left: 6px solid black;
-    height: 65%;
+    height: 69%;
 
     position: absolute;
     left: 50%;
@@ -50,17 +50,31 @@ page-home {
     font-size:300%
 }
     
-}
+
 .toolbar-background{
     text-align: center;
     background-color:orange;
     color:black;
 }
-#last{
+.toolbar{
+    text-align: center;
+}
+
+
+
+.last{
     width: 60px;
-    margin-left: 46%;
+    margin-left: 40%;
     bottom: 0;
     position: fixed;
     padding: 5px;
-    transform: translateX(-50);
+    transform: translateX(-49);
+    text-align: right;
+    margin-bottom: 0%;
+}
+// .last{
+//     margin-bottom: 0%;
+//     position: fixed;
+//     bottom: 10%;
+// }
 }

@@ -13,6 +13,11 @@ valuetwo: number
  this.valueone = 0;
  this.valuetwo =0;
   }
+  onClick7(){
+    this.valueone =0;
+    this.valuetwo =0;
+  
+  }
 onClick1(){
   // console.log(this.value)
   this.valueone +=3;

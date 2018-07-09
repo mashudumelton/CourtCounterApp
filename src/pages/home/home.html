@@ -11,38 +11,45 @@
   <!-- <ion-item>
     <div>{{value}}</div>
   </ion-item> -->
-
+<div>
 
   <div class="split left">
       <div class="centered">
 <h1>Team A</h1>
     <ion-item>
-        <div class="mash">{{valueone}}</div>
+        <div class="mash"  style="text-align: center;">{{valueone}}</div>
       </ion-item>
 <button ion-button block (click)="onClick1()">+3 POINTS</button><br>
 <button ion-button block (click)="onClick2()">+2 POINTS</button><br>
 <button ion-button block (click)="onClick3()">FREE THROW</button><br>
 </div>
+<div class="last">
+    <button ion-button block (click)="onClick7()">RESET</button>
+    
+    </div>
 </div>
 
-<div class="vl"></div>
+<div class="vl">
+
+ 
+</div>
 
 <div class="split right">
     <div class="centered">
+       
   <h2>Team B</h2><br>
     <ion-item>
-        <div class="mash">{{valuetwo}}</div>
+        <div class="mash" style="text-align: center;">{{valuetwo}}</div>
       </ion-item>
 <button ion-button block (click)="onClick4()">+3 POINTS</button><br>
 <button ion-button block (click)="onClick5()">+2 POINTS</button><br>
 <button ion-button block (click)="onClick6()">FREE THROW</button><br>
 </div>
-</div>
-<!-- <div class="nav">
-  <button>RESET</button>
-</div> -->
 
-<button ion-button block  id="last">RESET</button>
+</div>
+
+
+</div>
 
 </ion-content>
 
